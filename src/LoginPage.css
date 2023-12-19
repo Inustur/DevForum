@@ -1,0 +1,117 @@
+/* LoginPage.css */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background-color: transparent;
+}
+
+.login-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  border-radius: 10px;
+  border: #09c947 solid 1px;
+  min-width: 35%;
+  height: 50vh;
+}
+
+.login-inner h2{
+  font-size: 2.5em;
+  font-weight: 100;
+  color:#f3f3f3;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: none;
+  margin-top: 40px;
+  min-width: 60%;
+}
+
+.login-form input {
+  background-color: #252525;
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 50px);
+  border: #09c947 solid 1px;
+  border-radius: 5px;
+  color:#f4f4f4
+}
+
+.login-form input::placeholder{
+  font-style: italic;
+}
+
+.guest-login{
+  margin-top: 10px;
+}
+
+.guest-login button{
+  background-color: transparent;
+  border: none;
+  border-bottom: #09c947 solid 0.5px;
+  color:#09c947;
+  font-style: italic;
+  cursor:pointer;
+}
+
+.guest-login button:hover{
+  color:#01fe09;
+}
+
+.button-container{
+  display: flex;
+  gap:30px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.login-form .sign-in {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.login-form .sign-up {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #4CAF50;
+  border: solid #4CAF50 0.5px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.login-form .sign-in:hover{
+  background-color: #09c947;
+  transform: translateY(2.5px);
+}
+
+.login-form .sign-up:hover{
+  border-color: #09c947;
+  transform: translateY(2.5px);
+}
+
+.login-message {
+  margin-top: 10px;
+  color: #28a745;
+}
+
+.login-message.error {
+  color: #dc3545;
+}
