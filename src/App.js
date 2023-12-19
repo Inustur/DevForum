@@ -33,7 +33,7 @@ function App() {
       </nav>
       
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/login" element={<LoginPage onAuthentication={handleAuthentication} />} />
         <Route path="/channel" element={<Channel username={isAuthenticated ? username : 'None'} />} />
         <Route path="/topic" element={<TopicPage username={isAuthenticated ? username : 'None'}/>} />

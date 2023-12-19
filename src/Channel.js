@@ -51,8 +51,8 @@ const Channel = ({ username }) => {
         <p><q><span>Sign-in</span> to use features</q></p>
         <h6>Ready to <span className="underline-word">engage your knowledge</span> or <span className="underline-word">start a question&#92;topic</span>?</h6>
         <div className='arrow-image'>
-          <img src="/arrow-left.png" alt="Left Arrow" />
-          <img src="/arrow-right.png" alt="Right Arrow" />
+          <img src="/DevForum/images/arrow-left.png" alt="Left Arrow" />
+          <img src="DevForum/images/arrow-right.png" alt="Right Arrow" />
         </div>
       </div>
 
