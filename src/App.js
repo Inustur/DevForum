@@ -19,7 +19,7 @@ function App() {
       <nav className="navbar">
         <div className="logo">Dev<span className="logo-distinct">Forum</span>.</div>
         <div className="nav-links">
-          <Link to="/"><ion-icon name="home-outline"></ion-icon></Link>
+          <Link to="/home"><ion-icon name="home-outline"></ion-icon></Link>
           <Link to="/channel"><ion-icon name="albums-outline"></ion-icon></Link>
         </div>
 
